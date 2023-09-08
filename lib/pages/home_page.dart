@@ -25,20 +25,20 @@ class HomePageUI extends StatelessWidget {
                     padding:
                         EdgeInsets.symmetric(vertical: 15.sp, horizontal: 16.w),
                     child: Row(children: [
-                      Stack(
-                        alignment: Alignment.center,
-                        children: [
-                          Image.asset("icons/ic_blueOval.png",
-                              height: 30.sp, width: 30.sp),
-                          CustomText(
-                            text: "999",
-                            textSize: 10.sp,
-                            fontFamily: FontFamily.sfProSemiBold,
-                            fontWeight: FontWeight.w800,
-                            color: MyAppColors.primaryWhiteColor,
-                          )
-                        ],
-                      ),
+                      // Stack(
+                      //   alignment: Alignment.center,
+                      //   children: [
+                      //     Image.asset("icons/ic_blueOval.png",
+                      //         height: 30.sp, width: 30.sp),
+                      //     CustomText(
+                      //       text: "999",
+                      //       textSize: 10.sp,
+                      //       fontFamily: FontFamily.sfProSemiBold,
+                      //       fontWeight: FontWeight.w800,
+                      //       color: MyAppColors.primaryWhiteColor,
+                      //     )
+                      //   ],
+                      // ),
                       SizedBox(width: 5.w),
                       Expanded(
                         child: Column(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:navigation_bar/core/getX/rootbinding/root_binding.dart';
 import 'package:navigation_bar/screens/bottom_navigation_bar_ui.dart';
+import 'package:navigation_bar/concepts/test.dart';
 
 void main() {
   RootBinding().dependencies();
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
-          home: const BottomNavigationBarUI(),
+          // home: const BottomNavigationBarUI(),
+          home: const TestingPackages(),
         );
       },
     );
