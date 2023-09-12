@@ -7,11 +7,14 @@ class TestingPackages extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome to Ikaze',
-            style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w400,
-                color: Colors.black)),
+        title: const Text(
+          'Welcome to Ikaze',
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w400,
+            color: Colors.black,
+          ),
+        ),
       ),
       body: Center(
         child: Stack(
